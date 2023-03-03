@@ -1,4 +1,4 @@
-package devandroid.ckn.applistacurso;
+package dev.ckn.applistacurso;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("devandroid.ckn.applistacurso", appContext.getPackageName());
+        assertEquals("dev.ckn.applistacurso", appContext.getPackageName());
     }
 }
