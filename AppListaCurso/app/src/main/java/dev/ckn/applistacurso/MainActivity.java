@@ -1,4 +1,4 @@
-package devandroid.ckn.applistacurso;
+package dev.ckn.applistacurso;
 
 import androidx.appcompat.app.AppCompatActivity;
 

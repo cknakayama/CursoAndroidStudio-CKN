@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'devandroid.ckn.applistacurso'
+    namespace 'dev.ckn.applistacurso'
     compileSdk 33
 
     defaultConfig {
-        applicationId "devandroid.ckn.applistacurso"
+        applicationId "dev.ckn.applistacurso"
         minSdk 26
         targetSdk 33
         versionCode 1
