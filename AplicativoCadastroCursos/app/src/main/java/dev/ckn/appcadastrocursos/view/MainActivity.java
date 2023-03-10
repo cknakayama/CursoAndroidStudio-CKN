@@ -17,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pessoa = new Pessoa();
+        pessoa.setPrimeiroNome("Cristiano");
+        pessoa.setSobreNome("Nakayama");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setTelefoneContato("11-919191919");
+
+        int parada = 0;
 
 
     }

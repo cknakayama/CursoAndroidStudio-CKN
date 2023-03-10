@@ -7,6 +7,9 @@ public class Pessoa {
     private String cursoDesejado;
     private String telefoneContato;
 
+    //Construtor
+    public Pessoa(){}
+
     public String getPrimeiroNome() {
         return primeiroNome;
     }
@@ -39,11 +42,9 @@ public class Pessoa {
         this.telefoneContato = telefoneContato;
     }
 
-    //Construtor
-    public Pessoa(){
 
 
 
-    }
+
 
 }
