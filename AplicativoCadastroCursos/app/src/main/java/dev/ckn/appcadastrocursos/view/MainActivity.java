@@ -1,8 +1,10 @@
-package dev.ckn.appcadastrocursos;
+package dev.ckn.appcadastrocursos.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import dev.ckn.appcadastrocursos.R;
 
 public class MainActivity extends AppCompatActivity {
 
