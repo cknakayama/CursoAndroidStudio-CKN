@@ -11,30 +11,37 @@ public class Pessoa {
     public Pessoa(){}
 
     public String getPrimeiroNome() {
+
         return primeiroNome;
     }
 
     public void setPrimeiroNome(String primeiroNome) {
+
         this.primeiroNome = primeiroNome;
     }
 
     public String getSobreNome() {
+
         return sobreNome;
     }
 
     public void setSobreNome(String sobreNome) {
+
         this.sobreNome = sobreNome;
     }
 
     public String getCursoDesejado() {
+
         return cursoDesejado;
     }
 
     public void setCursoDesejado(String cursoDesejado) {
+
         this.cursoDesejado = cursoDesejado;
     }
 
     public String getTelefoneContato() {
+
         return telefoneContato;
     }
 
@@ -42,9 +49,13 @@ public class Pessoa {
         this.telefoneContato = telefoneContato;
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "primeiroNome='" + primeiroNome + '\'' +
+                ", sobreNome='" + sobreNome + '\'' +
+                ", cursoDesejado='" + cursoDesejado + '\'' +
+                ", telefoneContato='" + telefoneContato + '\'' +
+                '}';
+    }
 }

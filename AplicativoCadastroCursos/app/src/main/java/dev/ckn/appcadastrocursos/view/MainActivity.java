@@ -3,6 +3,7 @@ package dev.ckn.appcadastrocursos.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import dev.ckn.appcadastrocursos.R;
 import dev.ckn.appcadastrocursos.model.Pessoa;
@@ -22,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         pessoa.setCursoDesejado("Android");
         pessoa.setTelefoneContato("11-919191919");
 
-        int parada = 0;
+        Log.i("POOAndroid", pessoa.toString());
+
 
 
     }
